@@ -34,6 +34,8 @@ namespace Tools.Logging
         }
     }
 
+
+    //Full COM support.
     public static class PythonLogger
     {
         [DllExport("add", CallingConvention = CallingConvention.Cdecl)]
